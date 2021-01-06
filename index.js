@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import './main.css';
 
 const HelloWorld = () => {
     return(
-        <div>
+        <div className="main">
             <h1>This is Parcel Bundler Demo</h1>
         </div>
     )
